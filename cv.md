@@ -32,3 +32,8 @@ function isLeapYear(year) {
 ### EDUCATION
 - Vitebsk State University named after P.M. Masherov, Faculty of Mathematics and IT
 - RS School preparation course "JavaScript/Front-end. Stage 0" (in progress)
+
+---
+### LANGUAGES
+- English - Pre-Intermediate
+- Russian - Native
