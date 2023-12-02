@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" href="./assets/favicon-cv.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <title>cv</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contact information</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main main-container">
+            <div class="container">
+                <section class="section" id="name">
+                    <h1 class="section-title">Anton Sanduk</h1>
+                    <h2>Frontend-developer</h2>
+                    <img src="./assets/img/avatar.png" alt="avatar">
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contact information</h2>
+                    <ul>
+                        <li>email: mytest.zoomcamp1@gmail.com</li>
+                        <li>discord: anton (@mytest31)</li>
+                    </ul>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p>A dedicated and curiosity-driven JavaScript developer.
+                        Eager to learn new technologies and skills in order
+                        to increase the efficiency of company projects.
+                        High responsible, reliable and being a good team player.</p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li>JavaScript Basics</li>
+                        <li>HTML + CSS</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul>
+                        <li>RS School: CV#3 task
+                            (<a href="https://mytest31.github.io/rsschool-cv/" class="project-link">link</a>)
+			</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code example</h2>
+                    <pre>
+                        <code>
+                            function isLeapYear(year) {
+                                if (year % 4 == 0 &amp;&amp; (year % 400 == 0 || year % 100 != 0)) {
+                                return true;
+                                } else {
+                                return false;
+                                }
+                            }
+                        </code>
+                    </pre>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <h4>Vitebsk State University named after P.M. Masherov</h4>
+                    <p>Faculty of Mathematics and IT</p>
+                </section>
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li>English: Pre-Intermediate</li>
+                        <li>Russian: Native</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <nav class="nav-footer">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="https://github.com/mytest31/rsschool-cv" class="nav-link">Github</a></li>
+                        <li class="nav-item">2023</li>
+                        <li class="nav-item"><a href="https://rs.school/js/" class="nav-link"><img src="https://rs.school/images/rs_school_js.svg" alt="rs school"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
